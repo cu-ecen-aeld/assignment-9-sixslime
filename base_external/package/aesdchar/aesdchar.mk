@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-AESDCHAR_VERSION = bc065020727b43acb6df6cae7c24ad1f90c77b94
+AESDCHAR_VERSION = 020ade5cc497535fe3da72543b7191f93e7d2cfe
 AESDCHAR_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-sixslime.git
 AESDCHAR_SITE_METHOD = git
 AESDCHAR_GIT_SUBMODULES = YES
