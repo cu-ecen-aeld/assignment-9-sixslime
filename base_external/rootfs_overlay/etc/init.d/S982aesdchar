@@ -19,6 +19,9 @@ case "$1" in
         echo "Unloading aesdchar..."
         /usr/bin/aesdchar_unload
         echo "MODULE UNLOAD END"
+        echo "DEBUG START"
+        cat /var/log/messages | grep aesdsocket
+        echo "DEBUG END"
         ;;
     *)
         echo "Usage: $0 {start|stop}"
